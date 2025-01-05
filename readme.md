@@ -1,5 +1,5 @@
 ```go
-go get github.com/budka-tech/iport
+go get github.com/budka-tech/iport@latest
 ```
 
 На основе предоставленного кода и внесенных изменений, я могу описать этот репозиторий следующим образом:
