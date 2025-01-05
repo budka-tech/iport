@@ -14,14 +14,14 @@ type Ports struct {
 }
 
 type Params struct {
-	env *envo.Env
-	m   map[Host]Port
+	Env *envo.Env
+	M   map[Host]Port
 }
 
 func NewPorts(params Params) *Ports {
 	return &Ports{
-		env: params.env,
-		m:   params.m,
+		env: params.Env,
+		m:   params.M,
 	}
 }
 
