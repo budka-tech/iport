@@ -18,7 +18,7 @@ type Params struct {
 	M   map[Host]Port
 }
 
-func NewPorts(params Params) *Ports {
+func NewPorts(params *Params) *Ports {
 	return &Ports{
 		env: params.Env,
 		m:   params.M,
